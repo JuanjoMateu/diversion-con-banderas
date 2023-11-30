@@ -8,3 +8,17 @@ body {
 h1 {
   color: #333;
 }
+
+#countries-list{
+  display: flex;
+  flex-wrap: wrap;
+  scale: 1px;
+  max-block-size: 10%;
+  gap: 200px;
+}
+
+.country {
+  font-size: 20px; 
+  margin: 5px;
+  text-align: center; 
+}
